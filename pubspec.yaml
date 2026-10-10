@@ -1,0 +1,67 @@
+name: neon_wave
+description: "Neon Wave — a Spotify-style music discovery app powered by Deezer & iTunes."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  bloc: ^9.2.1
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+
+  # Networking
+  dio: ^5.9.0
+
+  # Local persistence (auth session, chosen artists, playlists, liked songs, recent searches)
+  shared_preferences: ^2.5.5
+
+  # Simple service locator (constructor-injected everywhere, this only wires the graph)
+  get_it: ^7.7.0
+
+  # Audio preview playback (Deezer `preview` / iTunes `previewUrl` 30s clips)
+  just_audio: ^0.9.40
+
+  # UI polish
+  google_fonts: ^8.1.0
+  shimmer: ^3.0.0
+  toastification: ^3.2.0
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+
+  # Local password hashing for the (local, backend-less) auth flow
+  crypto: ^3.0.3
+
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  google_sign_in: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+  # Testing the API / repository layer (TDD) without build_runner code-gen
+  mocktail: ^1.0.3
+  bloc_test: ^10.0.0
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icons/music_wave_logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/

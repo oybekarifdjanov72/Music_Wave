@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "298785071218",
+    "project_id": "neonwave-964d1",
+    "storage_bucket": "neonwave-964d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298785071218:android:a6507ca68ca6ee846de2eb",
+        "android_client_info": {
+          "package_name": "com.example.neon_wave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298785071218-8o8a7h8394vd9t8har3ue71ed6o29uth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neon_wave",
+            "certificate_hash": "2b0d2dff323c807746541bf258f11d94d7b3b118"
+          }
+        },
+        {
+          "client_id": "298785071218-sj70kpglcgblosldupnkqil29bua0onq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS7edNi5zFJcpbVJa76frzBZt1NvflpGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298785071218-sj70kpglcgblosldupnkqil29bua0onq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "298785071218-6p4gfg24gphsffegahmccih1lj7j87ct.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.neonWave"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
